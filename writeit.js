@@ -38,5 +38,6 @@
         } else {
             $.error( 'Method ' +  method + ' does not exist on jQuery.writeit' );
         }
+        return this;
     };
 })(jQuery);
