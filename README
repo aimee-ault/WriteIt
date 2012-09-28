@@ -1,0 +1,18 @@
+WriteIt is an extremely lightweight richtext editor for jQuery. It has a mild CSS dependency on the Bootstrap framework (that can easily be worked around by restyling the buttons).
+
+This is a very no-nonsense plugin that simply makes use of execCommand by replacing the passed DOM node with an iframe.
+
+Example of how to use WriteIt:
+
+<textarea id="editor">Howdy, li'l lady.</textarea>
+<script type="text/javascript">
+    //initialize WriteIt
+    var myEditor = $('#editor').writeit();
+    
+    //set text inside WriteIt
+    myEditor.writeit('setText', 'titties');
+    
+    //get text inside WriteIt
+    console.log(myEditor.writeit('getText'));
+    
+</script>
