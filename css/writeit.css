@@ -1,0 +1,25 @@
+.writeit {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+ul.writeit-toolbar {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+ul.writeit-toolbar::after {
+	clear: both;
+	display: table;
+	content: "";
+}
+
+ul.writeit-toolbar > li {
+	float: left;
+	display: list-item;
+	list-style: none;
+	margin: 0 5px 10px 0;
+}
+
+
